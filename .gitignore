@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+data/incoming/*.csv
+data/incoming/*.processed
+data/incoming/*.csv.processed
+data/processed/*.csv
+data/quarantine/*.csv
+sample_output/*.html
+sample_output/*.csv
+postgres_data/
