@@ -1,4 +1,4 @@
-# DataPulse: AI Self-Healing Data Pipeline Platform
+# Pipeline Health Monitor
 
 DataPulse is an end-to-end data engineering and AI reliability project that detects bad data before it breaks downstream analytics.
 
@@ -144,3 +144,9 @@ datapulse-ai-data-pipeline/
   Makefile
   README.md
 ```
+
+## Validation Results
+
+A local test on October 15, 2026 generated and validated **100,000 synthetic order records** using the existing generator, column normalization, type coercion, and validation code. Invalid records were separated with their error details. This test did not exercise PostgreSQL loading, the API, or the dashboard and does not establish production throughput or detection accuracy.
+
+The repository's saved 250-row demo is a separate run from this larger local validation test.
